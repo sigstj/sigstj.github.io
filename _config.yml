@@ -1,0 +1,11 @@
+markdown: redcarpet
+highlighter: pygments
+github: [Repository metadata]
+safe: true
+lsi: false
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock', '.ruby-version', '.gitignore', '.bundle', '.git', 'LICENSE']
+
+gems:
+    - jekyll-mentions
+    - jekyll-redirect-from
+    - jekyll-sitemap
